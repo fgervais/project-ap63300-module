@@ -1,3 +1,1 @@
-# Julie Bed Lights
-
-![Overview](assets/img/overview.jpg)
+# AP63300 Module
