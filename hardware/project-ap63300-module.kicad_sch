@@ -740,7 +740,7 @@
 				)
 			)
 		)
-		(symbol "TC33X-2-504E:TC33X-2-504E"
+		(symbol "TC33X-2-504E_1"
 			(pin_names
 				(offset 1.016)
 			)
@@ -765,7 +765,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "TC33X-2-504E:TRIM_TC33X-2-504E"
+			(property "Footprint" "TC33X_2_504E:TRIM_TC33X-2-504E"
 				(at 0 0 0)
 				(effects
 					(font
@@ -784,16 +784,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Bourns"
+			(property "Description" "Res Trimmer 100K Ohm 25% 1/10W 1_Elec_/1_Mech_Turn _3 X 3.8mm_ Foot Print SMD Embossed T/R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -803,7 +794,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "Res Trimmer 100K Ohm 25% 1/10W 1_Elec_/1_Mech_Turn _3 X 3.8mm_ Foot Print SMD Embossed T/R"
+			(property "MF" "Bourns"
 				(at 0 0 0)
 				(effects
 					(font
@@ -853,7 +844,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TC33X-2-504E_0_0"
+			(symbol "TC33X-2-504E_1_0_0"
 				(polyline
 					(pts
 						(xy -4.572 0) (xy -5.08 0)
@@ -1933,6 +1924,39 @@
 		)
 		(uuid "74ca2a87-082b-45f0-956a-25f5151fc0e4")
 	)
+	(label "sw"
+		(at 67.31 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fc97fb6-5dbe-43a2-8401-3a708c5a9729")
+	)
+	(label "BST"
+		(at 67.31 33.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebab8591-df74-4438-8edc-d5b40e63d4c9")
+	)
+	(label "FB"
+		(at 67.31 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6cff486-8069-4f75-bc08-d30fb747ac3b")
+	)
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 33.02 41.91 0)
@@ -2468,7 +2492,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3740a31b-389b-4fbe-b9f7-8d27544b55be")
+			(uuid "3740a31b-389b-4fbe-b9f7-8d27544b55bf")
 		)
 		(instances
 			(project ""
@@ -2539,140 +2563,6 @@
 			(project ""
 				(path "/4d25b0a3-aea0-4711-9e74-24157a752b25"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TC33X-2-504E:TC33X-2-504E")
-		(at 97.79 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10a55ac3-ae6e-4ce8-931c-65d780c1c13e")
-		(property "Reference" "R1"
-			(at 101.6 48.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TC33X-2-504E"
-			(at 101.6 50.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TC33X-2-504E:TRIM_TC33X-2-504E"
-			(at 97.79 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Bourns"
-			(at 97.79 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "Res Trimmer 100K Ohm 25% 1/10W 1_Elec_/1_Mech_Turn _3 X 3.8mm_ Foot Print SMD Embossed T/R"
-			(at 97.79 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "Bourns"
-			(at 97.79 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 97.79 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TC33X-2-104E"
-			(at 97.79 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 97.79 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "047dbe83-2f0e-4402-bfce-00e0e2303233")
-		)
-		(pin "3"
-			(uuid "73428474-b65f-41ff-b267-e938362fda32")
-		)
-		(pin "2"
-			(uuid "51722182-80a4-413c-9c40-dd097cbc4d92")
-		)
-		(instances
-			(project ""
-				(path "/4d25b0a3-aea0-4711-9e74-24157a752b25"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2811,6 +2701,133 @@
 		)
 	)
 	(symbol
+		(lib_name "TC33X-2-504E_1")
+		(lib_id "TC33X-2-504E:TC33X-2-504E")
+		(at 97.79 49.53 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "388d5b03-7ebb-4177-bccb-4f9a78af70ee")
+		(property "Reference" "R2"
+			(at 101.6 49.5301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TC33X-2-504E"
+			(at 101.6 48.2601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TC33X_2_504E:TRIM_TC33X-2-504E"
+			(at 97.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Res Trimmer 100K Ohm 25% 1/10W 1_Elec_/1_Mech_Turn _3 X 3.8mm_ Foot Print SMD Embossed T/R"
+			(at 97.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bourns"
+			(at 97.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "Bourns"
+			(at 97.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 97.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TC33X-2-104E"
+			(at 97.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 97.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24d342cf-f844-4cb0-8b06-ef559a24cdee")
+		)
+		(pin "3"
+			(uuid "3e87b9e9-c120-4418-ab4d-f9a9ac65bc58")
+		)
+		(pin "2"
+			(uuid "5b23b93d-55fd-4b86-bb63-991067ee9b47")
+		)
+		(instances
+			(project ""
+				(path "/4d25b0a3-aea0-4711-9e74-24157a752b25"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 111.76 35.56 0)
 		(unit 1)
@@ -2930,7 +2947,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b14b8c3d-deb7-47be-b429-6332becd6f29")
+			(uuid "b14b8c3d-deb7-47be-b429-6332becd6f2a")
 		)
 		(instances
 			(project ""
@@ -2995,7 +3012,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b14b8c3d-deb7-47be-b429-6332becd6f29")
+			(uuid "b14b8c3d-deb7-47be-b429-6332becd6f2b")
 		)
 		(instances
 			(project ""
@@ -3184,7 +3201,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8736ba74-dab2-4cf8-8e0a-b0313eef571c")
+			(uuid "8736ba74-dab2-4cf8-8e0a-b0313eef571d")
 		)
 		(instances
 			(project ""
@@ -3251,7 +3268,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3740a31b-389b-4fbe-b9f7-8d27544b55be")
+			(uuid "3740a31b-389b-4fbe-b9f7-8d27544b55c0")
 		)
 		(instances
 			(project ""
@@ -3448,7 +3465,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b14b8c3d-deb7-47be-b429-6332becd6f29")
+			(uuid "b14b8c3d-deb7-47be-b429-6332becd6f2c")
 		)
 		(instances
 			(project ""
@@ -3514,7 +3531,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8736ba74-dab2-4cf8-8e0a-b0313eef571c")
+			(uuid "8736ba74-dab2-4cf8-8e0a-b0313eef571e")
 		)
 		(instances
 			(project ""
@@ -3580,7 +3597,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8736ba74-dab2-4cf8-8e0a-b0313eef571c")
+			(uuid "8736ba74-dab2-4cf8-8e0a-b0313eef571f")
 		)
 		(instances
 			(project ""
