@@ -312,7 +312,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 2.3 0)
+			(at -0.25 -2 180)
 			(layer "F.Fab")
 			(uuid "c345a183-1f72-4cf2-9dbb-4669d22323ee")
 			(effects
@@ -526,7 +526,7 @@
 			)
 		)
 		(property "Value" "17.2k"
-			(at 0 1.43 90)
+			(at -2 0 0)
 			(layer "F.Fab")
 			(uuid "d9ed2c9a-6311-4070-ac37-44889b438249")
 			(effects
@@ -739,7 +739,7 @@
 			)
 		)
 		(property "Value" "TC33X-2-504E"
-			(at 7.56059 2.99722 90)
+			(at 2.75 2.5 180)
 			(layer "F.Fab")
 			(uuid "7661f489-9f4f-4fe4-816a-dcca9cb3f460")
 			(effects
@@ -1171,7 +1171,7 @@
 			)
 		)
 		(property "Value" "10uH"
-			(at 0.2152 5.9064 0)
+			(at 0 5.75 0)
 			(layer "F.Fab")
 			(uuid "9d369d47-cd47-4573-a130-01d228120c7a")
 			(effects
@@ -1415,6 +1415,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 2.9 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4b9113c2-064a-4185-a1c8-c0f5cd6a3eb9")
 			(effects
 				(font
@@ -1529,7 +1530,7 @@
 			)
 		)
 		(property "Value" "AP63300WU-7"
-			(at 0 2.635 0)
+			(at 5.75 7.5 0)
 			(layer "F.Fab")
 			(uuid "1ea49cb8-dd7d-4878-9920-43673ae23e69")
 			(effects
@@ -1838,7 +1839,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 2.3 0)
+			(at 0.25 2 180)
 			(layer "F.Fab")
 			(uuid "58bdd31e-2c10-4c2a-9059-a4dc443c60ec")
 			(effects
